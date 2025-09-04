@@ -1,6 +1,7 @@
 def main():
-    # Password must have 8 or more characters.
-    # Password must contain ! and @
+    # Valid Passwords must have 8 or more characters.
+    # Valid Passwords must contain ! and @
+    # Valid Passwords must contain a number 
     password = input("Enter a password: ")
 
     # isValid = len(password) >= 8
