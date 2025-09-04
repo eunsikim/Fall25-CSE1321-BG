@@ -14,8 +14,12 @@ def main():
 
     if isValid:
         print("Your password is good!")
-    else:
-        print("Passwords must be 8 characters or more and contain special characters (!, @)")
+    if not isValidLenght:
+        print("Invalid Password: Passwords must contain 8 characters or more")
+    if not containSpecChar:
+        print("Invalid Password: Passwords must contain all special characters (!, @)")
+    if not containNumber:
+        print("Invalid Password: Passwords must contain a number (0 - 9)")
 
 
 
