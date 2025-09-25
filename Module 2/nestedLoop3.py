@@ -12,8 +12,7 @@
 
 
 
-
-
+ 
 
 
 
@@ -46,7 +45,7 @@ def main():
                 elif y >= 3:
                     assignemnt += student_data[x][y]
 
-        final_grade = (test / 2 * 0.6) + (assignemnt / 2 * 0.4)
+        final_grade = test / 2 * 0.6 + assignemnt / 2 * 0.4
         print(f"{student_data[x][0]} has a final grade of {final_grade}")
     print()
     print("Name\tT1\tT2\tA1\tA2")
