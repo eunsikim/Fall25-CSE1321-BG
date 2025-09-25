@@ -1,3 +1,24 @@
+# DO NOT STUDY THIS, THIS IS JUST AN EXAMPLE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def main():
     # Name, Test 1, Test 2, Assignment 1, Assignment 2
     student_data = [
