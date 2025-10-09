@@ -1,29 +1,17 @@
-def helloWorld():
-    print("Hello World")
-
-def addition(n1, n2):
-    sum = n1 + n2
-
-    return sum
+import functions2_lib as f2l
 
 def main():
     while True:
-        print("Press 1 for Hello World")
-        print("Press 2 for Addition")
-        print("Press X to quit")
-        option = input("> ")
-
-        print(option)
+        option = f2l.menuOption()
 
         if option == "1":
-            helloWorld()
+            f2l.helloWorld()
         elif option == "2":
-            number1 = int(input("Enter a number: "))
-            number2 = int(input("Enter another number: "))
-
-            print(addition(number1, number2))
+            f2l.additionHandler()
         elif option == "X":
             break
+
+
 
 if __name__ == "__main__":
     main()
