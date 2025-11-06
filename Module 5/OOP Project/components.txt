@@ -1,0 +1,36 @@
+Components:
+student
+-	id
+-	password
+-	name
+-	classList
+
+staff
+-	id
+-	password
+-	name
+
+faculty
+-	id
+-	password
+-	name
+-	assigned course -> List containing Course objs
+
+faculty manager
+-	faculty_list -> List containing Faculty objs
+-	add faculty()
+
+course manager
+-	courseList -> List contain Course objs
+-	add course()
+-	edit course()
+-	remove course()
+-	register to a course()
+
+course
+-	crn
+-	name
+-	time
+-	instructor -> Faculty obj
+-	gradebook -> Dictionary {Student obj: string("A", "B", "C", "D", "F")}
+
